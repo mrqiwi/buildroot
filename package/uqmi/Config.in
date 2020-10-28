@@ -1,0 +1,8 @@
+config BR2_PACKAGE_UQMI
+	bool "uqmi"
+	select BR2_PACKAGE_LIBJSONC
+	select BR2_PACKAGE_LIBUBOX
+    help
+		uqmi is a command line tool for controlling mobile
+		broadband modems using the QMI-protocol
+
